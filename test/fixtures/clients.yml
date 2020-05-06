@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+client_one:
+  email: MyString
+  full_name: MyText
+  id_card: 1
+  phone: 1
+  address: MyString
+  api_key: <%=  SecureRandom.urlsafe_base64(24, false) %>
+
+client_two:
+  email: MyString
+  full_name: MyText
+  id_card: 1
+  phone: 1
+  address: MyString
+  api_key: <%=  SecureRandom.urlsafe_base64(24, false) %>
